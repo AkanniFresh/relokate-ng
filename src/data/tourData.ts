@@ -126,13 +126,13 @@ export const testimonials = [
 export const articles = [
   {
     id: 1,
-    title: "Ashton University Scholarship in the UK",
+    title: "Fully Funded Ashton University Scholarship",
     excerpt: "Unlock your future with Ashton University Scholarship—empowering global talents through quality education in the UK.",
     image: "./logos/uk-scholarship.jpg",
     category: "Scholarship",
     date: "May 26, 2025",
     readTime: "7 min read",
-    href: "https://www.thehiking.club/blog/complete-guide-to-hiking-alps?srsltid=AfmBOooN02IBKk_-N8HweUe36alriStiEXrwZu2TmnmPVeRLOfDM5-Hm"
+    href: "https://sparobanksng.com/aston-university-scholarships/"
   },
   {
     id: 2,
@@ -142,7 +142,7 @@ export const articles = [
     category: "Scholarship",
     date: "May 26, 2025",
     readTime: "7 min read",
-    href: "https://www.thehiking.club/blog/complete-guide-to-hiking-alps?srsltid=AfmBOooN02IBKk_-N8HweUe36alriStiEXrwZu2TmnmPVeRLOfDM5-Hm"
+    href: "https://t.co/gwEJaL8ZCv"
   },
   {
     id: 3,
@@ -152,7 +152,7 @@ export const articles = [
     category: "Scholarship",
     date: "May 26, 2025",
     readTime: "7 min read",
-    href: "https://www.thehiking.club/blog/complete-guide-to-hiking-alps?srsltid=AfmBOooN02IBKk_-N8HweUe36alriStiEXrwZu2TmnmPVeRLOfDM5-Hm"
+    href: "https://t.co/PBUVdrJVf0"
   },
   {
     id: 4,
