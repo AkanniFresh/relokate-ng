@@ -42,9 +42,8 @@ const MobileNavbar: React.FC = () => {
               <a href="#home" className="text-gray-600 block border-b border-gray-300 py-3">
                 HOME
               </a>
-              <Link href="fullcategories">
+              <Link href="fullcategories"  className="text-gray-600 block border-b border-gray-300 py-3">
               <a
-                className="text-gray-600 block border-b border-gray-300 py-3"
                 onClick={toggleMenu}
               >
                 CATEGORIES
@@ -57,9 +56,8 @@ const MobileNavbar: React.FC = () => {
               >
                 ABOUT US
               </a>
-              <Link href="fullpopulartours">
+              <Link href="fullpopulartours" className="text-gray-600 block border-b border-gray-300 py-3">
               <a
-                className="text-gray-600 block border-b border-gray-300 py-3"
                 onClick={toggleMenu}
               >
                 TOURS

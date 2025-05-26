@@ -127,7 +127,7 @@ export const articles = [
   {
     id: 1,
     title: "Fully Funded Ashton University Scholarship",
-    excerpt: "Unlock your future with Ashton University Scholarship—empowering global talents through quality education in the UK.",
+    excerpt: "Unlock your future with Ashton University Scholarship empowering global talents through quality education in the UK.",
     image: "./logos/uk-scholarship.jpg",
     category: "Scholarship",
     date: "May 26, 2025",
@@ -137,7 +137,7 @@ export const articles = [
   {
     id: 2,
     title: "2025 University of Melbourne Graduate Scholarship",
-    excerpt: "Pursue advanced studies with the 2025 Melbourne Graduate Scholarship—supporting high-achieving international postgraduates in Australia.",
+    excerpt: "Pursue advanced studies with the 2025 Melbourne Graduate Scholarship supporting high-achieving international postgraduates in Australia.",
     image: "./logos/graduate-scholarship.jpg",
     category: "Scholarship",
     date: "May 26, 2025",
@@ -147,7 +147,7 @@ export const articles = [
   {
     id: 3,
     title: "2025 University of Winnipeg Scholarship",
-    excerpt: "Apply for the 2025 University of Winnipeg Scholarship—supporting outstanding international students with academic excellence.",
+    excerpt: "Apply for the 2025 University of Winnipeg Scholarship supporting outstanding international students with academic excellence.",
     image: "./logos/canada-scholarship.jpg",
     category: "Scholarship",
     date: "May 26, 2025",

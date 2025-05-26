@@ -39,7 +39,7 @@ const SubpageMobileNav: React.FC = () => {
 
             {/* Menu content */}
             <nav className="mt-10 space-y-6">
-              <Link href="/" className="text-gray-600 block border-b border-gray-300 py-3">
+              <Link href="/home" className="text-gray-600 block border-b border-gray-300 py-3">
               <a>
                 HOME
               </a>
@@ -52,13 +52,13 @@ const SubpageMobileNav: React.FC = () => {
                 CATEGORIES
               </a>
               </Link>
+              <Link href="/home" className="text-gray-600 block border-b border-gray-300 py-3">
               <a
-                href="#about"
-                className="text-gray-600 block border-b border-gray-300 py-3"
                 onClick={toggleMenu}
               >
                 ABOUT US
               </a>
+              </Link>
               <Link href="/fullpopulartours"  className="text-gray-600 block border-b border-gray-300 py-3">
               <a
                 onClick={toggleMenu}
@@ -66,20 +66,20 @@ const SubpageMobileNav: React.FC = () => {
                 TOURS
               </a>
               </Link>
+              <Link href="/home" className="text-gray-600 block border-b border-gray-300 py-3">
               <a
-                href="#testimonials"
-                className="text-gray-600 block border-b border-gray-300 py-3"
                 onClick={toggleMenu}
               >
                 TESTIMONIALS
               </a>
+              </Link>
+              <Link href="/home"  className="text-gray-600 block border-b border-gray-300 py-3">
               <a
-                href="#blog"
-                className="text-gray-600 block border-b border-gray-300 py-3"
                 onClick={toggleMenu}
               >
                 BLOG
               </a>
+              </Link>
               <Link href="/consultation">
                 <a>
                   <button
