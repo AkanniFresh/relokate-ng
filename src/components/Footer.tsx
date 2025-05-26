@@ -137,7 +137,7 @@ export default function Footer() {
           
           <motion.div variants={itemVariants}>
             <h3 className="text-lg font-bold mb-6 flex items-center">
-              <div className="w-2 h-5 bg-primary mr-2"></div>
+              {/* <div className="w-2 h-5 bg-primary mr-2"></div> */}
               Quick Links
             </h3>
             <ul className="space-y-3">
@@ -148,7 +148,7 @@ export default function Footer() {
                   transition={{ type: "spring", stiffness: 400 }}
                 >
                   <a href="#" className="text-gray-400 hover:text-white transition duration-300 flex items-center">
-                    <span className="h-1 w-2 bg-primary mr-2 opacity-0 group-hover:opacity-100"></span>
+                    {/* <span className="h-1 w-2 bg-primary mr-2 opacity-0 group-hover:opacity-100"></span> */}
                     {link}
                   </a>
                 </motion.li>
@@ -158,7 +158,7 @@ export default function Footer() {
           
           <motion.div variants={itemVariants}>
             <h3 className="text-lg font-bold mb-6 flex items-center">
-              <div className="w-2 h-5 bg-primary mr-2"></div>
+              {/* <div className="w-2 h-5 bg-primary mr-2"></div> */}
               Support
             </h3>
             <ul className="space-y-3">
@@ -178,7 +178,7 @@ export default function Footer() {
           
           <motion.div variants={itemVariants}>
             <h3 className="text-lg font-bold mb-6 flex items-center">
-              <div className="w-2 h-5 bg-primary mr-2"></div>
+              {/* <div className="w-2 h-5 bg-primary mr-2"></div> */}
               Newsletter
             </h3>
             <p className="text-gray-400 mb-4">Subscribe to our newsletter to get the latest updates and offers.</p>
