@@ -153,7 +153,37 @@ export const articles = [
     date: "May 06, 2025",
     readTime: "7 min read",
     href: "https://www.thehiking.club/blog/complete-guide-to-hiking-alps?srsltid=AfmBOooN02IBKk_-N8HweUe36alriStiEXrwZu2TmnmPVeRLOfDM5-Hm"
-  }
+  },
+  {
+    id: 4,
+    title: "Ashton University Scholarship in the UK",
+    excerpt: "Unlock your future with Ashton University Scholarship—empowering global talents through quality education in the UK.",
+    image: "./logos/uk-scholarship.jpg",
+    category: "Scholarship",
+    date: "May 26, 2025",
+    readTime: "7 min read",
+    href: "https://www.thehiking.club/blog/complete-guide-to-hiking-alps?srsltid=AfmBOooN02IBKk_-N8HweUe36alriStiEXrwZu2TmnmPVeRLOfDM5-Hm"
+  },
+  {
+    id: 5,
+    title: "2025 University of Melbourne Graduate Scholarship",
+    excerpt: "Pursue advanced studies with the 2025 Melbourne Graduate Scholarship—supporting high-achieving international postgraduates in Australia.",
+    image: "./logos/graduate-scholarship.jpg",
+    category: "Scholarship",
+    date: "May 26, 2025",
+    readTime: "7 min read",
+    href: "https://www.thehiking.club/blog/complete-guide-to-hiking-alps?srsltid=AfmBOooN02IBKk_-N8HweUe36alriStiEXrwZu2TmnmPVeRLOfDM5-Hm"
+  },
+  {
+    id: 6,
+    title: "2025 University of Winnipeg Scholarship",
+    excerpt: "Apply for the 2025 University of Winnipeg Scholarship—supporting outstanding international students with academic excellence.",
+    image: "./logos/canada-scholarship.jpg",
+    category: "Scholarship",
+    date: "May 26, 2025",
+    readTime: "7 min read",
+    href: "https://www.thehiking.club/blog/complete-guide-to-hiking-alps?srsltid=AfmBOooN02IBKk_-N8HweUe36alriStiEXrwZu2TmnmPVeRLOfDM5-Hm"
+  },
 ];
 
 // Gallery Images
