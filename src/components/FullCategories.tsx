@@ -82,7 +82,7 @@ const FullCategories = () => {
   };
 
   return (
-    <section className="bg-blue-50 text-center">
+    <section className="bg-blue-50">
       <SubpageNavbar />
 
       <div className="relative overflow-hidden h-[75vh]">
