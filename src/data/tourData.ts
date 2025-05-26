@@ -126,36 +126,6 @@ export const testimonials = [
 export const articles = [
   {
     id: 1,
-    title: "Essential Packing Tips for Long-Term Travel",
-    excerpt: "Learn how to pack efficiently for extended trips without overpacking or missing essentials.",
-    image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-    category: "Travel Tips",
-    date: "May 06, 2025",
-    readTime: "5 min read",
-    href: "https://www.cntraveler.com/story/how-to-pack-for-long-term-travel"
-  },
-  {
-    id: 2,
-    title: "Top 10 Hidden Gems in Tokyo's Nightlife",
-    excerpt: "Discover the secret spots that even locals cherish in Tokyo's vibrant and exciting nightlife scene.",
-    image: "https://images.unsplash.com/photo-1534430480872-3498386e7856?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-    category: "Destinations",
-    date: "May 06, 2025",
-    readTime: "8 min read",
-    href: "https://www.agoda.com/travel-guides/japan/tokyo/discover-tokyo-nightlife-for-foreigners-hidden-gems-await/"
-  },
-  {
-    id: 3,
-    title: "Complete Guide to Hiking in the Swiss Alps",
-    excerpt: "Everything you need to know about preparing for and enjoying the majestic trails of Switzerland.",
-    image: "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-    category: "Adventures",
-    date: "May 06, 2025",
-    readTime: "7 min read",
-    href: "https://www.thehiking.club/blog/complete-guide-to-hiking-alps?srsltid=AfmBOooN02IBKk_-N8HweUe36alriStiEXrwZu2TmnmPVeRLOfDM5-Hm"
-  },
-  {
-    id: 4,
     title: "Ashton University Scholarship in the UK",
     excerpt: "Unlock your future with Ashton University Scholarship—empowering global talents through quality education in the UK.",
     image: "./logos/uk-scholarship.jpg",
@@ -165,7 +135,7 @@ export const articles = [
     href: "https://www.thehiking.club/blog/complete-guide-to-hiking-alps?srsltid=AfmBOooN02IBKk_-N8HweUe36alriStiEXrwZu2TmnmPVeRLOfDM5-Hm"
   },
   {
-    id: 5,
+    id: 2,
     title: "2025 University of Melbourne Graduate Scholarship",
     excerpt: "Pursue advanced studies with the 2025 Melbourne Graduate Scholarship—supporting high-achieving international postgraduates in Australia.",
     image: "./logos/graduate-scholarship.jpg",
@@ -175,7 +145,7 @@ export const articles = [
     href: "https://www.thehiking.club/blog/complete-guide-to-hiking-alps?srsltid=AfmBOooN02IBKk_-N8HweUe36alriStiEXrwZu2TmnmPVeRLOfDM5-Hm"
   },
   {
-    id: 6,
+    id: 3,
     title: "2025 University of Winnipeg Scholarship",
     excerpt: "Apply for the 2025 University of Winnipeg Scholarship—supporting outstanding international students with academic excellence.",
     image: "./logos/canada-scholarship.jpg",
@@ -184,6 +154,36 @@ export const articles = [
     readTime: "7 min read",
     href: "https://www.thehiking.club/blog/complete-guide-to-hiking-alps?srsltid=AfmBOooN02IBKk_-N8HweUe36alriStiEXrwZu2TmnmPVeRLOfDM5-Hm"
   },
+  {
+    id: 4,
+    title: "Essential Packing Tips for Long-Term Travel",
+    excerpt: "Learn how to pack efficiently for extended trips without overpacking or missing essentials.",
+    image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+    category: "Travel Tips",
+    date: "May 06, 2025",
+    readTime: "5 min read",
+    href: "https://www.cntraveler.com/story/how-to-pack-for-long-term-travel"
+  },
+  {
+    id: 5,
+    title: "Top 10 Hidden Gems in Tokyo's Nightlife",
+    excerpt: "Discover the secret spots that even locals cherish in Tokyo's vibrant and exciting nightlife scene.",
+    image: "https://images.unsplash.com/photo-1534430480872-3498386e7856?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+    category: "Destinations",
+    date: "May 06, 2025",
+    readTime: "8 min read",
+    href: "https://www.agoda.com/travel-guides/japan/tokyo/discover-tokyo-nightlife-for-foreigners-hidden-gems-await/"
+  },
+  {
+    id: 6,
+    title: "Complete Guide to Hiking in the Swiss Alps",
+    excerpt: "Everything you need to know about preparing for and enjoying the majestic trails of Switzerland.",
+    image: "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+    category: "Adventures",
+    date: "May 06, 2025",
+    readTime: "7 min read",
+    href: "https://www.thehiking.club/blog/complete-guide-to-hiking-alps?srsltid=AfmBOooN02IBKk_-N8HweUe36alriStiEXrwZu2TmnmPVeRLOfDM5-Hm"
+  }
 ];
 
 // Gallery Images
