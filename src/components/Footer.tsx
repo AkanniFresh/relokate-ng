@@ -95,13 +95,13 @@ export default function Footer() {
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-primary mr-3" />
-                <span className="text-gray-300">aresatravels@gmail.com</span>
+                <span className="text-gray-300">hello@aresatravels.com</span>
               </div>
             </div>
             
             <div className="flex space-x-4">
               <motion.a 
-                href="#" 
+                href="https://www.facebook.com/profile.php?id=61567390131332" target="_blank" 
                 className="bg-gray-800 p-2 rounded-full text-gray-400 hover:text-white hover:bg-primary transition duration-300"
                 whileHover={{ y: -5, scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
@@ -109,7 +109,7 @@ export default function Footer() {
                 <Facebook className="h-5 w-5" />
               </motion.a>
               <motion.a 
-                href="#" 
+                href="https://x.com/AresaTravels"  target="_blank"
                 className="bg-gray-800 p-2 rounded-full text-gray-400 hover:text-white hover:bg-primary transition duration-300"
                 whileHover={{ y: -5, scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
