@@ -23,7 +23,7 @@ const categories = [
       "./logos/work.jpg",
     title: "Work Abroad",
     description:
-      "Discover job placements in Germany, UAE & more — legally and with full support.",
+      "Discover job placements in Europe & more, legally and with full support.",
   },
 
   {
