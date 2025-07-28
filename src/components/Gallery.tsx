@@ -65,6 +65,12 @@ export default function Gallery() {
             </motion.div>
           ))}
         </motion.div>
+
+          <video className="mt-3.5 rounded-md" width="490" height="240" controls>
+              <source src="./gallery/aresa-promotion.mp4" type="video/mp4">
+              </source>
+
+            </video>
         
         {/* View all button */}
         <motion.div 

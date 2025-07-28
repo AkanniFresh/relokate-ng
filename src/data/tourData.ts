@@ -130,7 +130,7 @@ export const articles = [
     excerpt: "Unlock your future with Ashton University Scholarship empowering global talents through quality education in the UK.",
     image: "./logos/uk-scholarship.jpg",
     category: "Scholarship",
-    date: "July 08, 2025",
+    date: "July 28, 2025",
     readTime: "7 min read",
     href: "https://sparobanksng.com/aston-university-scholarships/"
   },
@@ -140,7 +140,7 @@ export const articles = [
     excerpt: "Pursue advanced studies with the 2025 Melbourne Graduate Scholarship supporting high-achieving international postgraduates in Australia.",
     image: "./logos/graduate-scholarship.jpg",
     category: "Scholarship",
-    date: "July 08, 2025",
+    date: "July 28, 2025",
     readTime: "7 min read",
     href: "https://t.co/gwEJaL8ZCv"
   },
@@ -150,7 +150,7 @@ export const articles = [
     excerpt: "Apply for the 2025 University of Winnipeg Scholarship supporting outstanding international students with academic excellence.",
     image: "./logos/canada-scholarship.jpg",
     category: "Scholarship",
-    date: "July 08, 2025",
+    date: "July 28, 2025",
     readTime: "7 min read",
     href: "https://t.co/PBUVdrJVf0"
   },
@@ -160,7 +160,7 @@ export const articles = [
     excerpt: "Learn how to pack efficiently for extended trips without overpacking or missing essentials.",
     image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
     category: "Travel Tips",
-    date: "July 08, 2025",
+    date: "July 28, 2025",
     readTime: "5 min read",
     href: "https://www.cntraveler.com/story/how-to-pack-for-long-term-travel"
   },
@@ -170,7 +170,7 @@ export const articles = [
     excerpt: "Discover the secret spots that even locals cherish in Tokyo's vibrant and exciting nightlife scene.",
     image: "https://images.unsplash.com/photo-1534430480872-3498386e7856?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
     category: "Destinations",
-    date: "July 08, 2025",
+    date: "July 28, 2025",
     readTime: "8 min read",
     href: "https://www.agoda.com/travel-guides/japan/tokyo/discover-tokyo-nightlife-for-foreigners-hidden-gems-await/"
   },
@@ -180,7 +180,7 @@ export const articles = [
     excerpt: "Everything you need to know about preparing for and enjoying the majestic trails of Switzerland.",
     image: "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
     category: "Adventures",
-    date: "July 08, 2025",
+    date: "July 28, 2025",
     readTime: "7 min read",
     href: "https://www.thehiking.club/blog/complete-guide-to-hiking-alps?srsltid=AfmBOooN02IBKk_-N8HweUe36alriStiEXrwZu2TmnmPVeRLOfDM5-Hm"
   }
