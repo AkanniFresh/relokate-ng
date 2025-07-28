@@ -60,7 +60,7 @@ export default function SubpageNavbar() {
             <a>
             <img
               className="w-10 md:w-12 lg:w-16"
-              src="./logos/aresa-black-logo.png"
+              src="./logos/aresa-amber-logo.png"
               alt=""
             />
             </a>
