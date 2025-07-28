@@ -66,8 +66,8 @@ export default function Footer() {
                 transition={{ duration: 0.5 }}
               >
                <img
-              className="w-10 md:w-12 lg:w-14"
-              src="./logos/aresa-white-logo.png"
+              className="w-12 md:w-14 lg:w-16"
+              src="./logos/aresa-amber-logo.png"
               alt=""
             />
               </motion.div>
