@@ -66,11 +66,20 @@ export default function Gallery() {
           ))}
         </motion.div>
 
+        <div className="flex flex-row gap-4 flex-wrap">
+
           <video className="mt-3.5 rounded-md" width="490" height="240" controls>
-              <source src="./gallery/aresa-promotion.mp4" type="video/mp4">
+              <source src="./gallery/france-endorsement.mp4" type="video/mp4">
               </source>
 
             </video>
+          <video className="mt-3.5 rounded-md" width="490" height="240" controls>
+              <source src="./gallery/uk-endorsement.mp4" type="video/mp4">
+              </source>
+
+            </video>
+
+            </div>
         
         {/* View all button */}
         <motion.div 
