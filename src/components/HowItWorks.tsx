@@ -27,12 +27,12 @@ const steps: Step[] = [
   {
     title: "Apply to programs or jobs",
     content:
-      "Once your documents are ready, we’ll assist you in submitting strong applications to institutions or employers in the UK, USA, France, and more.",
+      "Once your documents are ready, we’ll assist you in submitting strong applications to institutions or employers in the UK, Europe, Canada, and more.",
   },
   {
     title: "Get support until arrival",
     content:
-      "From visa processing to travel tips and settling in, our team will support you through every stage—right up to your arrival abroad.",
+      "From visa processing to travel tips and settling in, our team will support you through every stage right up to your arrival abroad.",
   },
 ];
 
@@ -45,8 +45,8 @@ const HowItWorks: React.FC = () => {
 
   return (
     <section className="max-w-2xl mx-auto px-4 py-10">
-      <h2 className="text-3xl md:text-4xl font-bold">How It Works</h2>
-       <div className="w-20 h-1 bg-blue-400 mx-auto mt-4 rounded-full mb-8"></div>
+      <h2 className="text-3xl md:text-4xl font-bold text-center">How It Works</h2>
+       <div className="w-20 h-1 bg-[#203864] mx-auto mt-4 rounded-full mb-8"></div>
       <div className="space-y-4">
         {steps.map((step, index) => (
           <div
@@ -110,7 +110,7 @@ const HowItWorks: React.FC = () => {
             <a>
               <Button
                 // onClick={handleToggle}
-                className="relative overflow-hidden px-4 py-2 rounded-sm bg-blue-400 text-white font-semibold transition-all duration-300 group"
+                className="relative overflow-hidden px-4 py-2 rounded-sm bg-[#203864] text-white font-semibold transition-all duration-300 group"
               >
                 <span className="absolute inset-0 bg-gray-800 transform scale-x-0 origin-left transition-transform duration-300 ease-out group-hover:scale-x-100 z-0"></span>
                 <span className="relative z-10 group-hover:text-white transition-colors duration-300">

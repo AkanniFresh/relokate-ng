@@ -144,7 +144,7 @@ export default function FullPopularTours() {
             Wonderful plan for You
           </div>
           <h2 className="text-3xl md:text-4xl font-bold">Most Popular Tour</h2>
-          <div className="w-20 h-1 bg-blue-400 mx-auto mt-4 rounded-full"></div>
+          <div className="w-20 h-1 bg-[#203864] mx-auto mt-4 rounded-full"></div>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -176,7 +176,7 @@ export default function FullPopularTours() {
                   transition={{ duration: 0.6 }}
                 />
                 {/* Price badge */}
-                {/* <div className="absolute top-4 left-4 bg-blue-400 text-white py-1 px-3 rounded-full text-sm font-bold">
+                {/* <div className="absolute top-4 left-4 bg-[#203864] text-white py-1 px-3 rounded-full text-sm font-bold">
                 ${tour.price}
               </div> */}
               </div>
@@ -192,7 +192,7 @@ export default function FullPopularTours() {
                   </span>
                   <Link href="/consultation">
                     <motion.button
-                      className="text-primary border border-primary px-4 py-1 rounded-lg text-sm font-medium hover:bg-blue-400 hover:text-white transition-colors duration-300"
+                      className="text-primary border border-primary px-4 py-1 rounded-lg text-sm font-medium hover:bg-[#203864] hover:text-white transition-colors duration-300"
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                     >
@@ -210,7 +210,7 @@ export default function FullPopularTours() {
 
       {/* Scroll to top button - fixed at bottom right */}
       <motion.button
-        className="fixed bottom-8 right-8 bg-blue-400 text-white p-3 rounded-full shadow-lg z-40 hover:bg-blue-400/80 transition-all duration-300"
+        className="fixed bottom-8 right-8 bg-[#203864] text-white p-3 rounded-full shadow-lg z-40 hover:bg-[#203864]/80 transition-all duration-300"
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

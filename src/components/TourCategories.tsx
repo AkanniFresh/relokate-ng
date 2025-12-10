@@ -1,6 +1,7 @@
 import { categories } from "../data/tourData";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
+import { FiArrowRight } from "react-icons/fi";
 
 export default function TourCategories() {
   const containerVariants = {
@@ -93,13 +94,14 @@ export default function TourCategories() {
         transition={{ delay: 0.5 }}
       >
         <Link href="/fullcategories">
-        <a>
+        <a className="flex flex-row justify-center">
         <motion.button
-          className="text-blue-400 underline-offset-4 font-medium hover:underline"
+          className="text-[#203864] underline-offset-4 font-medium hover:underline group flex flex-row justify-center items-center"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
           Get Started
+          <FiArrowRight className="transition-transform group-hover:-rotate-45 group-active:-rotate-12" />
         </motion.button>
         </a>
         </Link>

@@ -69,7 +69,7 @@ const FormFill = () => {
           <Link href='/home'>
           <a>
           <button
-          className="bg-blue-400 text-white px-4 py-2 rounded hover:bg-blue-400/90 transition text-sm my-6">Go Back Home</button>
+          className="bg-[#203864] text-white px-4 py-2 rounded hover:bg-[#203864]/90 transition text-sm my-6">Go Back Home</button>
           </a>
           </Link>
         
@@ -101,7 +101,7 @@ const FormFill = () => {
           id="name"
           name="name"
          
-          className="w-full md:w-[230px] lg:w-[230px] border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+          className="w-full md:w-[230px] lg:w-[230px] border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#203864]"
           required
         />
       </div>
@@ -116,7 +116,7 @@ const FormFill = () => {
           id="email"
           name="email"
         
-          className="w-full md:w-[230px] lg:w-[230px] border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+          className="w-full md:w-[230px] lg:w-[230px] border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#203864]"
           required
         />
       </div>
@@ -134,7 +134,7 @@ const FormFill = () => {
           id="phone"
           name="phone"
         
-          className="w-full md:w-[230px] lg:w-[230px] border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+          className="w-full md:w-[230px] lg:w-[230px] border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#203864]"
           required
         />
       </div>
@@ -146,7 +146,7 @@ const FormFill = () => {
         <select
           id="language"
           name="language"
-          className="w-full md:w-[230px] lg:w-[230px] border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+          className="w-full md:w-[230px] lg:w-[230px] border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#203864]"
           required
         >
           <option value="" disabled>
@@ -170,7 +170,7 @@ const FormFill = () => {
         <select
           id="services"
           name="services"
-          className="w-full md:w-[230px] lg:w-[230px] border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+          className="w-full md:w-[230px] lg:w-[230px] border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#203864]"
           required
         >
           {/* <option value="" disabled>
@@ -193,7 +193,7 @@ const FormFill = () => {
         <select
           id="channel"
           name="channel"
-          className="w-full md:w-[230px] lg:w-[230px] border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+          className="w-full md:w-[230px] lg:w-[230px] border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#203864]"
           required
         >
           {/* <option value="" disabled>
@@ -219,7 +219,7 @@ const FormFill = () => {
           name="date"
           min={minDateString()}
         
-          className="!w-full md:w-[230px] lg:w-[230px] border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+          className="!w-full md:w-[230px] lg:w-[230px] border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#203864]"
           required
         />
       </div>
@@ -234,7 +234,7 @@ const FormFill = () => {
           id="time"
           name="time"
          
-          className="!w-full md:w-[230px] lg:w-[230px] border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+          className="!w-full md:w-[230px] lg:w-[230px] border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#203864]"
           required
         />
       </div>
@@ -248,7 +248,7 @@ const FormFill = () => {
           placeholder="Do you have any additional info you'll like us to know about? if yes kindly share"
           id="text"
           name="text"
-          className="w-full border border-gray-300 rounded-lg px-4 py-4 focus:outline-none focus:ring-2 focus:ring-blue-400"
+          className="w-full border border-gray-300 rounded-lg px-4 py-4 focus:outline-none focus:ring-2 focus:ring-[#203864]"
          >
           </textarea>
       </div>
@@ -259,7 +259,7 @@ const FormFill = () => {
       <button
         type="submit"
         className={
-          `flex gap-2 justify-center items-center w-full bg-blue-400 text-white py-2 rounded-lg hover:bg-blue-400/90 transition duration-300 ${formStatus === 'sending' ? 'opacity-50 cursor-not-allowed' : ''}`
+          `flex gap-2 justify-center items-center w-full bg-[#203864] text-white py-2 rounded-lg hover:bg-[#203864]/90 transition duration-300 ${formStatus === 'sending' ? 'opacity-50 cursor-not-allowed' : ''}`
         }
       >
         {

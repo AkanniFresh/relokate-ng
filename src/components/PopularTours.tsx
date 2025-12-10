@@ -15,7 +15,7 @@ export default function PopularTours() {
       >
         <div className="text-amber-500 text-sm font-medium mb-2">Wonderful plan for You</div>
         <h2 className="text-3xl md:text-4xl font-bold">Most Popular Tour</h2>
-        <div className="w-20 h-1 bg-blue-400 mx-auto mt-4 rounded-full"></div>
+        <div className="w-20 h-1 bg-[#203864] mx-auto mt-4 rounded-full"></div>
       </motion.div>
       
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -63,7 +63,7 @@ export default function PopularTours() {
                 </span>
                 <Link href="/consultation">
                 <motion.button 
-                  className="text-primary border border-primary px-4 py-1 rounded-lg text-sm font-medium hover:bg-blue-400 hover:text-white transition-colors duration-300"
+                  className="text-primary border border-primary px-4 py-1 rounded-lg text-sm font-medium hover:bg-[#203864] hover:text-white transition-colors duration-300"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
@@ -87,7 +87,7 @@ export default function PopularTours() {
         <Link href="fullpopulartours">
         
         <motion.button
-          className="bg-transparent border-2 border-primary text-primary px-8 py-3 rounded-lg font-medium hover:bg-blue-400 hover:text-white transition-colors duration-300"
+          className="bg-transparent border-2 border-primary text-primary px-8 py-3 rounded-lg font-medium hover:bg-[#203864] hover:text-white transition-colors duration-300"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >

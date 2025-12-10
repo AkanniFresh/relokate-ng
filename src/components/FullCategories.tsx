@@ -15,7 +15,7 @@ const categories = [
       "./logos/study.jpg",
     title: "Study Abroad",
     description:
-      "Explore programs in the UK, USA, Canada & more. We guide you from application to visa.",
+      "Explore programs in the UK, Europe, Canada & more. We guide you from application to visa.",
   },
   {
     id: 2,

@@ -36,7 +36,7 @@ export default function Testimonials() {
     <section className="py-16 bg-white relative overflow-hidden">
       {/* Background decoration */}
       <motion.div 
-        className="absolute -top-24 -right-24 w-48 h-48 bg-blue-400/10 rounded-full"
+        className="absolute -top-24 -right-24 w-48 h-48 bg-[#203864]/10 rounded-full"
         animate={{ 
           scale: [1, 1.2, 1],
           opacity: [0.5, 0.8, 0.5],
@@ -69,7 +69,7 @@ export default function Testimonials() {
           transition={{ duration: 0.5 }}
         >
           <h2 className="text-3xl md:text-4xl font-bold">What they are talking about</h2>
-          <div className="w-24 h-1 bg-blue-400 mx-auto mt-4 rounded-full"></div>
+          <div className="w-24 h-1 bg-[#203864] mx-auto mt-4 rounded-full"></div>
         </motion.div>
         
         <div className="relative max-w-5xl mx-auto">
@@ -113,14 +113,14 @@ export default function Testimonials() {
                     whileHover={{ y: -5, boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)" }}
                   >
                     {/* Quote icon */}
-                    <div className="absolute -top-3 -left-3 bg-blue-400 text-white rounded-full p-2 shadow-md">
+                    <div className="absolute -top-3 -left-3 bg-[#203864] text-white rounded-full p-2 shadow-md">
                       <div className="h-5 w-5">
                       <QuoteLeft />
                       </div>
                     </div>
                     
                     <div className="flex items-center mb-4">
-                      <div className="w-12 h-12 rounded-full overflow-hidden mr-4 border-2 border-primary">
+                      <div className="w-12 h-12 rounded-full overflow-hidden mr-4 shadow-sm shadow-blue-800">
                         <motion.img 
                           src={testimonial.avatar} 
                           alt={testimonial.name} 
@@ -151,7 +151,7 @@ export default function Testimonials() {
             {testimonials.map((_, index) => (
               <motion.button 
                 key={index}
-                className={`w-3 h-3 rounded-full ${currentSlide === index ? 'bg-blue-400' : 'bg-gray-300'}`}
+                className={`w-3 h-3 rounded-full ${currentSlide === index ? 'bg-[#203864]' : 'bg-gray-300'}`}
                 aria-label={`Go to slide ${index + 1}`}
                 onClick={() => setCurrentSlide(index)}
                 whileHover={{ scale: 1.2 }}

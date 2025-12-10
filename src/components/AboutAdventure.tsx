@@ -17,7 +17,7 @@ export default function AboutAdventure() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <div className="flex flex-col gap-6">
-              <h2 className="text-3xl md:text-4xl font-bold">Adventure & Travels</h2>
+              <h2 className="text-3xl md:text-4xl font-bold">Study & Work Abroad</h2>
               <p className="text-gray-600">
               We help individuals pursue their dreams of studying or working abroad. From university admissions to job placements, we provide expert guidance every step of the way. <br /> With a focus on personalized support and reliable information, we make the journey to international success smoother and more achievable.
               </p>
@@ -61,9 +61,9 @@ export default function AboutAdventure() {
                 <a>
                 <Button 
                   variant="outline" 
-                  className="text-blue-400 border-blue-400 hover:bg-blue-400/90 hover:text-white"
+                  className="text-[#203864] border-[#203864] hover:bg-[#203864]/90 hover:text-white"
                 >
-                  Contact me
+                  Contact Us
                 </Button>
                 </a>
                 </Link>
@@ -74,7 +74,7 @@ export default function AboutAdventure() {
           <div className="grid grid-cols-2 gap-6">
             {stats.map((stat, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md p-6 text-center">
-                <h3 className="text-2xl font-bold text-blue-400">{stat.value}</h3>
+                <h3 className="text-2xl font-bold text-[#203864]">{stat.value}</h3>
                 <p className="text-sm text-gray-600">{stat.label}</p>
               </div>
             ))}

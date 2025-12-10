@@ -69,15 +69,15 @@ export const offers = [
   },
   {
     id: 2,
-    title: "Study in France",
+    title: "Study in Europe",
     description: "Explore English programs with low tuition",
     image: "./logos/francecity.jpg",
     discount: "25%"
   },
   {
     id: 3,
-    title: "USA Admissions Support",
-    description: "Your Path to U.S. Universities Starts Here",
+    title: "Canada Admissions Support",
+    description: "Study at Top Canadian Universities",
     image: "./logos/usa.jpg",
     discount: "35%"
   }
@@ -87,17 +87,17 @@ export const offers = [
 export const testimonials = [
   {
     id: 1,
-    name: "Wisdom Abioye",
-    avatar: "./logos/wisdom.jpeg",
+    name: "Mrs Odusanya",
+    avatar: "./logos/odusanya.png",
     rating: 5,
-    comment: "The team made my UK admission journey so smooth. Their step-by-step guidance and care made me feel supported from start to finish. I’m truly grateful!"
+    comment: "The team made my UK study visa journey so smooth. Their step-by-step guidance and care made me feel supported from start to finish. I’m truly grateful!"
   },
   {
     id: 2,
     name: "Adetunji Olalekan",
     avatar: "./logos/Ridobaba.jpeg",
     rating: 5,
-    comment: "I never imagined studying in France could be this easy. They helped with everything—documents, deadlines, and even my visa. Thank you for making it possible!"
+    comment: "I never imagined studying in France could be this easy. They helped with everything documents, deadlines, and even my visa. Thank you for making it possible!"
   },
   {
     id: 3,
@@ -118,7 +118,14 @@ export const testimonials = [
     name: "Fabilola Mary",
     avatar: "./logos/Image3.png",
     rating: 4.5,
-    comment: "I struggled for months applying alone, but their support changed everything. They helped me land a great job in Germany. I finally feel hopeful and settled."
+    comment: "I struggled for months applying alone, but their support changed everything. They helped me land a great job in Germnay. I finally feel hopeful and settled."
+  },
+  {
+    id: 6,
+    name: "Olorunfemi",
+    avatar: "./logos/olorunfemi.jpg",
+    rating: 5,
+    comment: "I was confused and overwhelmed at first, but their guidance made everything easy. I secured my work opportunity in Serbia and relocated successfully. I’m truly grateful."
   },
 ];
 
@@ -201,7 +208,7 @@ export const galleryImages = [
   {
     id: 3,
     url: "./gallery/gallery2.jpeg",
-    alt: "Grand Hotel Austria"
+    alt: "Serbia Belgrade Airport"
   },
   {
     id: 4,
@@ -231,6 +238,6 @@ export const galleryImages = [
   {
     id: 9,
     url: "./gallery/gallery11.png",
-    alt: "Tullip Hotel Tanzania"
+    alt: "Burgundy School of Business"
   },
 ];

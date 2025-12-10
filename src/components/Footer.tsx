@@ -66,8 +66,8 @@ export default function Footer() {
                 transition={{ duration: 0.5 }}
               >
                <img
-              className="w-12 md:w-14 lg:w-16"
-              src="./logos/aresa-amber-logo.png"
+              className="max-w-[150px]"
+              src="./logos/relokate-white-logo.png"
               alt=""
             />
               </motion.div>
@@ -80,8 +80,8 @@ export default function Footer() {
                 Aresa Travels
               </motion.span> */}
             </div>
-            <p className="text-gray-400 mb-6">
-              Discover the world with our expertly crafted travel experiences designed to create memories that last a lifetime.
+            <p className="text-gray-400 mb-6"><i>From here to anywhere...</i><br/>
+              Making global relocation simple, safe, and stress-free.
             </p>
             
             <div className="flex flex-col space-y-2 mb-6">
@@ -95,7 +95,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-primary mr-3" />
-                <span className="text-gray-300">hello@aresatravels.com</span>
+                <span className="text-gray-300">hello@relokate.ng</span>
               </div>
             </div>
             
@@ -215,7 +215,7 @@ export default function Footer() {
           viewport={{ once: true }}
           transition={{ delay: 0.5, duration: 0.5 }}
         >
-          <p>&copy; {new Date().getFullYear()} Aresa Travels & Tours. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Relokate.ng | Powered by Aresa Travels & Tours.</p>
         </motion.div>
       </div>
     </footer>

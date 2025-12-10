@@ -21,7 +21,7 @@ export default function RecentArticles() {
                 alt={article.title} 
                 className="w-full h-48 object-cover"
               />
-              <div className="absolute top-3 right-3 bg-blue-400 text-white text-xs font-bold uppercase py-1 px-2 rounded">
+              <div className="absolute top-3 right-3 bg-[#203864] text-white text-xs font-bold uppercase py-1 px-2 rounded">
                 {article.category}
               </div>
             </div>
@@ -38,7 +38,7 @@ export default function RecentArticles() {
               </div>
               <h3 className="font-bold text-lg mb-2">{article.title}</h3>
               <p className="text-gray-600 text-sm mb-4">{article.excerpt}</p>
-              <a href={article.href} target="_blank" className="text-blue-400 font-medium text-sm hover:underline">Continue</a>
+              <a href={article.href} target="_blank" className="text-[#203864] font-medium text-sm hover:underline">Continue</a>
             </div>
           </div>
         ))}

@@ -8,7 +8,7 @@ export default function Gallery() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold">Recent Gallery</h2>
-          <div className="w-20 h-1 bg-blue-400 mx-auto mt-4 rounded-full"></div>
+          <div className="w-20 h-1 bg-[#203864] mx-auto mt-4 rounded-full"></div>
         </div>
         
         <motion.div 
@@ -89,7 +89,7 @@ export default function Gallery() {
           transition={{ delay: 0.3 }}
         >
           <motion.button 
-            className="bg-blue-400 text-white px-6 py-3 rounded-lg hover:bg-blue-400/90 transition-colors duration-300"
+            className="bg-[#203864] text-white px-6 py-3 rounded-lg hover:bg-[#203864]/90 transition-colors duration-300"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >

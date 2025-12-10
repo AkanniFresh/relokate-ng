@@ -59,8 +59,9 @@ export default function MotivationSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.5 }}
-          >
+          > <i>
            The world is full of places that change us. Travel not just to see new things but to become someone new.
+           </i>
           </motion.h1>
 
         </motion.div>

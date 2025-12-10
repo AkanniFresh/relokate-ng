@@ -42,7 +42,7 @@ export default function Navbar() {
   return (
     <motion.header
       className={`sticky top-0 z-50 bg-white shadow-sm transition-all duration-300 ${
-        scrolled ? "py-2 shadow-md" : "py-3"
+        scrolled ? "py-3 shadow-md" : "py-6"
       }`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
@@ -59,42 +59,44 @@ export default function Navbar() {
             <Link href="/home">
             <a>
             <img
-              className="w-12 md:w-14 lg:w-16"
-              src="./logos/aresa-amber-logo.png"
-              alt=""
+              className="max-w-[150px]"
+              src="/logos/relokate-logo.png"
+              // alt="w-20 md:w-20 lg:w-28"
             />
             </a>
             </Link>
           </motion.div>
 
-          <nav className="space-x-6 text-sm font-semibold text-slate-900 uppercase hidden lg:block">
+          <nav className="space-x-6 text-sm font-semibold text-slate-900 hidden lg:block">
             <a href="#hero" className="relative group px-2 py-1">
-              HOME
-              <span className="absolute left-0 bottom-0 h-0.5 w-full scale-x-0 bg-blue-400 origin-left transition-transform duration-300 ease-out group-hover:scale-x-100"></span>
+              Home
+              <span className="absolute left-0 bottom-0 h-0.5 w-full scale-x-0 bg-[#203864] origin-left transition-transform duration-300 ease-out group-hover:scale-x-100"></span>
             </a>
             <Link href="/fullcategories">
             <a className="relative group px-2 py-1">
-              CATEGORIES
-              <span className="absolute left-0 bottom-0 h-0.5 w-full scale-x-0 bg-blue-400 origin-left transition-transform duration-300 ease-out group-hover:scale-x-100"></span>
+              Categories
+              <span className="absolute left-0 bottom-0 h-0.5 w-full scale-x-0 bg-[#203864] origin-left transition-transform duration-300 ease-out group-hover:scale-x-100"></span>
             </a>
             </Link>
-            <a href="#about" className="relative group px-2 py-1">
-              ABOUT US
-              <span className="absolute left-0 bottom-0 h-0.5 w-full scale-x-0 bg-blue-400 origin-left transition-transform duration-300 ease-out group-hover:scale-x-100"></span>
+            <Link href="/aboutuspage">
+            <a className="relative group px-2 py-1">
+              About Us
+              <span className="absolute left-0 bottom-0 h-0.5 w-full scale-x-0 bg-[#203864] origin-left transition-transform duration-300 ease-out group-hover:scale-x-100"></span>
             </a>
+            </Link>
             <Link href="fullpopulartours">
             <a className="relative group px-2 py-1">
-              TOURS
-              <span className="absolute left-0 bottom-0 h-0.5 w-full scale-x-0 bg-blue-400 origin-left transition-transform duration-300 ease-out group-hover:scale-x-100"></span>
+              Tours
+              <span className="absolute left-0 bottom-0 h-0.5 w-full scale-x-0 bg-[#203864] origin-left transition-transform duration-300 ease-out group-hover:scale-x-100"></span>
             </a>
             </Link>
             <a href="#testimonials" className="relative group px-2 py-1">
-              TESTIMONIALS
-              <span className="absolute left-0 bottom-0 h-0.5 w-full scale-x-0 bg-blue-400 origin-left transition-transform duration-300 ease-out group-hover:scale-x-100"></span>
+              Testimonials
+              <span className="absolute left-0 bottom-0 h-0.5 w-full scale-x-0 bg-[#203864] origin-left transition-transform duration-300 ease-out group-hover:scale-x-100"></span>
             </a>
             <a href="#blog" className="relative group px-2 py-1">
-              BLOG
-              <span className="absolute left-0 bottom-0 h-0.5 w-full scale-x-0 bg-blue-400 origin-left transition-transform duration-300 ease-out group-hover:scale-x-100"></span>
+              Blog
+              <span className="absolute left-0 bottom-0 h-0.5 w-full scale-x-0 bg-[#203864] origin-left transition-transform duration-300 ease-out group-hover:scale-x-100"></span>
             </a>
           </nav>
 
@@ -108,7 +110,7 @@ export default function Navbar() {
               <a>
               <Button
                 // onClick={handleToggle}
-                className="relative overflow-hidden px-4 py-2 rounded-sm bg-blue-400 text-white font-semibold transition-all duration-300 group hidden lg:block"
+                className="relative overflow-hidden px-4 py-2 rounded-sm bg-[#203864] text-white font-semibold transition-all duration-300 group hidden lg:block"
               >
                 <span className="absolute inset-0 bg-gray-800 transform scale-x-0 origin-left transition-transform duration-300 ease-out group-hover:scale-x-100 z-0"></span>
                 <span className="relative z-10 group-hover:text-white transition-colors duration-300">

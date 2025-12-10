@@ -85,7 +85,7 @@ export default function BookingHeroSection() {
               scale: 0.985,
             }}
             onClick={handleScrollDown}
-              className="flex w-fit items-center gap-1.5 rounded-sm bg-blue-400 px-4 py-2 text-gray-50 transition-colors hover:bg-gray-950/50 uppercase font-semibold group text-sm"
+              className="flex w-fit items-center gap-1.5 rounded-sm bg-[#203864] px-4 py-2 text-gray-50 transition-colors hover:bg-gray-950/50 uppercase font-semibold group text-sm"
               
             >
               SCROLL DOWN TO BOOK
