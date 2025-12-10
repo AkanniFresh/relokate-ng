@@ -1,5 +1,5 @@
 import { Button } from "../components/ui/button";
-import { Facebook, Twitter, Instagram, Linkedin, Send, MapPin, Phone, Mail } from "lucide-react";
+import { Facebook, Twitter, Instagram, Linkedin, Send, MapPin, Phone, Mail, MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function Footer() {
@@ -87,10 +87,10 @@ export default function Footer() {
             <div className="flex flex-col space-y-2 mb-6">
               <div className="flex items-center">
                 <MapPin className="h-5 w-5 text-primary mr-3" />
-                <span className="text-gray-300">Suite 1, Ridwan House, Asa-Dam, Ilorin Nigeria</span>
+                <span className="text-gray-300">Suite 1, Ridwan House, <br/> Asa-Dam, Ilorin Nigeria</span>
               </div>
               <div className="flex items-center">
-                <Phone className="h-5 w-5 text-primary mr-3" />
+                <MessageCircle className="h-5 w-5 text-primary mr-3" />
                 <span className="text-gray-300">+234 816 421 4924</span>
               </div>
               <div className="flex items-center">
