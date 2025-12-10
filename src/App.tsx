@@ -10,6 +10,7 @@ import ConsultationPage from "./components/ConsultationPage";
 import FullCategories from "./components/FullCategories";
 import FullPopularTours from "./components/FullPopularTours";
 import AboutUsPage from "./components/AboutUsPage";
+import FullGalleryPage from "./components/FullGalleryPage";
 
 
 
@@ -23,6 +24,7 @@ function Router() {
       <Route path="/fullcategories" component={FullCategories} />
       <Route path="/fullpopulartours" component={FullPopularTours} />
       <Route path="/aboutuspage" component={AboutUsPage} />
+      <Route path="/fullgallerypage" component={FullGalleryPage} />
       <Route component={NotFound} />
     </Switch>
     </>

@@ -3,9 +3,9 @@ import { ZoomIn } from "lucide-react";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 
-export default function Gallery() {
+export default function FullGallery() {
   return (
-    <section className="py-16 bg-gray-100">
+    <section className="py-6">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold">Recent Gallery</h2>
@@ -89,13 +89,14 @@ export default function Gallery() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
         >
-          <Link href="fullgallerypage">
+
+          <Link href="consultation">
           <motion.button 
             className="bg-[#203864] text-white px-6 py-3 rounded-lg hover:bg-[#203864]/90 transition-colors duration-300"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            View All Gallery
+            Get in touch
           </motion.button>
           </Link>
         </motion.div>
