@@ -77,7 +77,7 @@ const FullGalleryPage = () => {
         </motion.div>
       </div>
 
-      <section className="container w-full bg-gray-50 p-6 m-auto">
+      <section className="w-full bg-gray-50 p-6 m-auto">
 
       <div className="max-w-4xl mx-auto mt-6 mb-16 px-6">
         <motion.div
