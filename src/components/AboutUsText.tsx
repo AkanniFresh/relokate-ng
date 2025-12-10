@@ -81,7 +81,9 @@ export default function AboutUs() {
           {paragraphs.map((text, index) => (
             <p
               key={index}
-              ref={(el: HTMLParagraphElement | null) => (paragraphsRef.current[index] = el)}
+              ref={(el) => {
+    paragraphsRef.current[index] = el;
+  }}
               className="
                 opacity-0 translate-y-4
                 transition-all duration-500 ease-out
