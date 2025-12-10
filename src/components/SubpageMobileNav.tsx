@@ -12,7 +12,7 @@ const SubpageMobileNav: React.FC = () => {
 
   return (
     <>
-      <button onClick={toggleMenu} className="p-4 z-50">
+      <button onClick={toggleMenu} className="p-1 z-50">
         <span className="text-xl font-bold bg-black text-white px-3 py-1 rounded-sm">
           ☰
         </span>

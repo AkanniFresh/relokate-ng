@@ -12,7 +12,7 @@ const MobileNavbar: React.FC = () => {
 
   return (
     <>
-      <button onClick={toggleMenu} className="p-4 z-50">
+      <button onClick={toggleMenu} className="p-1 z-50">
         <span className="text-xl font-bold bg-black text-white px-3 py-1 rounded-sm">
           ☰
         </span>
@@ -26,6 +26,7 @@ const MobileNavbar: React.FC = () => {
             exit={{ x: "100%" }}
             transition={{ duration: 0.3 }}
             className="fixed inset-0 bg-white z-50 w-full h-full flex flex-col p-6"
+
           >
             {/* Close button */}
             <div className="flex justify-end">
