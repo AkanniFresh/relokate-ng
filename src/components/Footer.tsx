@@ -90,8 +90,8 @@ export default function Footer() {
                 <span className="text-gray-300">Suite 1, Ridwan House, <br/> Asa-Dam, Ilorin Nigeria</span>
               </div>
               <div className="flex items-center">
-                <MessageCircle className="h-5 w-5 text-primary mr-3" />
-                <span className="text-gray-300">+234 816 421 4924</span>
+                <Phone className="h-5 w-5 text-primary mr-3" />
+                <span className="text-gray-300">+234 915 367 9659</span>
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-primary mr-3" />
@@ -117,7 +117,7 @@ export default function Footer() {
                 <Twitter className="h-5 w-5" />
               </motion.a>
               <motion.a 
-                href="#" 
+                href="https://www.instagram.com/relokate_ng?igsh=Ymt1YXVrbWp5em9x&utm_source=qr" target="_blank"
                 className="bg-gray-800 p-2 rounded-full text-gray-400 hover:text-white hover:bg-primary transition duration-300"
                 whileHover={{ y: -5, scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
@@ -125,12 +125,12 @@ export default function Footer() {
                 <Instagram className="h-5 w-5" />
               </motion.a>
               <motion.a 
-                href="#" 
+                href="https://wa.me/2348164214924" target="_blank"
                 className="bg-gray-800 p-2 rounded-full text-gray-400 hover:text-white hover:bg-primary transition duration-300"
                 whileHover={{ y: -5, scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
-                <Linkedin className="h-5 w-5" />
+                <MessageCircle className="h-5 w-5" />
               </motion.a>
             </div>
           </motion.div>
