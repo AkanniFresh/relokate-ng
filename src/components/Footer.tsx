@@ -1,5 +1,5 @@
 import { Button } from "../components/ui/button";
-import { Facebook, Twitter, Instagram, Linkedin, Send, MapPin, Phone, Mail, MessageCircle } from "lucide-react";
+import { Facebook, Twitter, Instagram, Linkedin, Send, MapPin, Phone, Mail } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function Footer() {
@@ -130,7 +130,7 @@ export default function Footer() {
                 whileHover={{ y: -5, scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
-                <MessageCircle className="h-5 w-5" />
+                <Linkedin className="h-5 w-5" />
               </motion.a>
             </div>
           </motion.div>
