@@ -68,7 +68,7 @@ export default function AboutUs() {
   ];
 
   return (
-    <section className="py-16 px-6">
+    <section className="py-6 px-1">
       <div className="max-w-4xl mx-auto bg-white p-8 sm:p-12 rounded-2xl shadow-xl">
         <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
           About Us

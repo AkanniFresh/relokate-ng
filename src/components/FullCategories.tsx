@@ -200,7 +200,7 @@ const FullCategories = () => {
 
          {/* Scroll to top button - fixed at bottom right */}
       <motion.button
-        className="fixed bottom-8 right-8 bg-blue-400 text-white p-3 rounded-full shadow-lg z-40 hover:bg-blue-400/80 transition-all duration-300"
+        className="fixed bottom-8 right-8 bg-[#203864] text-white p-3 rounded-full shadow-lg z-40 hover:bg-[#203864]/80 transition-all duration-300"
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

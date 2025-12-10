@@ -42,7 +42,7 @@ export default function SubpageNavbar() {
   return (
     <motion.header
       className={`sticky top-0 z-50 bg-white shadow-sm transition-all duration-300 ${
-        scrolled ? "py-3 shadow-md" : "py-6"
+        scrolled ? "py-3 shadow-md" : "py-5"
       }`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
