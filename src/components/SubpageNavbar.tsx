@@ -92,7 +92,7 @@ export default function SubpageNavbar() {
               <span className="absolute left-0 bottom-0 h-0.5 w-full scale-x-0 bg-[#203864] origin-left transition-transform duration-300 ease-out group-hover:scale-x-100"></span>
             </a>
             </Link>
-             <Link href="/home">
+             <Link href="fullgallerypage">
             <a className="relative group px-2 py-1">
               Testimonials
               <span className="absolute left-0 bottom-0 h-0.5 w-full scale-x-0 bg-[#203864] origin-left transition-transform duration-300 ease-out group-hover:scale-x-100"></span>

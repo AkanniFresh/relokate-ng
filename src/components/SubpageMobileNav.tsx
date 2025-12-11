@@ -66,7 +66,7 @@ const SubpageMobileNav: React.FC = () => {
                 TOURS
               </a>
               </Link>
-              <Link href="/home" className="text-gray-600 block border-b border-gray-300 py-3">
+              <Link href="/fullgallerypage" className="text-gray-600 block border-b border-gray-300 py-3">
               <a
                 onClick={toggleMenu}
               >
