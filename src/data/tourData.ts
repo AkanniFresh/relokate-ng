@@ -216,46 +216,34 @@ export const galleryImages = [
   {
     id: 4,
     type: "image",
-    url: "/gallery/gallery1.jpeg",
-    alt: "Staffordshire University"
-  },
-  {
-    id: 5,
-    type: "image",
     url: "/gallery/gallery4.jpeg",
     alt: "Sand Sea Tanzania"
   },
   {
-    id: 6,
+    id: 5,
     type: "image",
     url:"/gallery/gallery6.jpeg",
     alt: "Tanzania Tour"
   },
   {
-    id: 7,
-    type: "image",
-    url: "/gallery/gallery7.jpeg",
-    alt: "Tanzania Tour"
-  },
-  {
-    id: 8,
+    id: 6,
     type: "image",
     url: "/gallery/gallery8.jpeg",
     alt: "Hiking"
   },
   {
-    id: 9,
+    id: 7,
     type: "image",
     url: "/gallery/gallery11.png",
     alt: "Burgundy School of Business"
   },
    {
-    id: 10,
+    id: 8,
     type: "video",
     url: "/gallery/uk-endorsement.mp4"
   },
   {
-    id: 11,
+    id: 9,
     type: "video",
     url: "/gallery/france-endorsement.mp4"
   },
