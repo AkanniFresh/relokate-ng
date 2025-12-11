@@ -99,7 +99,7 @@ const FullGalleryPage = () => {
             this website are shared for informational and transparency purposes
             only. Individual results may vary based on personal qualifications,
             documentation, country requirements, and embassy or immigration
-            authority decisions. <strong>Relokate.ng</strong> does not influence
+            authority decisions.<br/> <strong>Relokate.ng</strong> does not influence
             or guarantee the outcome of any visa or immigration application.
           </p>
         </motion.div>

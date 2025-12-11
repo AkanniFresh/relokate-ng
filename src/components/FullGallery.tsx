@@ -1,5 +1,5 @@
-import { galleryImages } from "../data/tourData";
-import { ZoomIn } from "lucide-react";
+import { completeGallery, galleryImages } from "../data/tourData";
+import { ZoomIn, ZoomOut } from "lucide-react";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 
@@ -26,7 +26,7 @@ export default function FullGallery() {
           initial="hidden"
           animate="show"
         >
-          {galleryImages.map((image) => (
+          {completeGallery.map((image) => (
             <motion.div 
               key={image.id}
               className="relative group overflow-hidden rounded-lg cursor-pointer shadow-md"
@@ -42,7 +42,7 @@ export default function FullGallery() {
               <img 
                 src={image.url} 
                 alt={image.alt} 
-                className="w-full h-64 object-cover transition duration-500 group-hover:scale-110"
+                className="w-full h-96 object-cover transition duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
               <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -53,7 +53,7 @@ export default function FullGallery() {
                   whileHover={{ rotate: [0, -10, 10, -10, 0] }}
                 >
                   <button className="bg-white text-gray-900 p-3 rounded-full hover:bg-primary hover:text-white transition-colors duration-300">
-                    <ZoomIn className="h-5 w-5" />
+                    <ZoomOut className="h-5 w-5" />
                   </button>
                 </motion.div>
               </div>
