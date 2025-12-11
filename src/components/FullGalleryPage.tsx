@@ -77,34 +77,32 @@ const FullGalleryPage = () => {
         </motion.div>
       </div>
 
-      <section className="w-full bg-gray-50 p-6 m-auto">
-
-      <div className="max-w-4xl mx-auto mt-6 mb-16 px-6">
-        <motion.div
-          className="bg-white rounded-lg shadow-md p-6 h-full relative border border-gray-100"
-        >
-          {/* Quote icon */}
-          <div className="absolute -top-3 -left-3 bg-[#203864] text-white rounded-full p-2 shadow-md">
-            <div className="h-5 w-5">
-              <QuoteLeft />
+      <div className="w-full bg-gray-50 p-6 m-auto">
+        <div className="max-w-4xl mx-auto mt-6 mb-16 px-6">
+          <motion.div className="bg-white rounded-lg shadow-md p-6 h-full relative border border-gray-100">
+            {/* Quote icon */}
+            <div className="absolute -top-3 -left-3 bg-[#203864] text-white rounded-full p-2 shadow-md">
+              <div className="h-5 w-5">
+                <QuoteLeft />
+              </div>
             </div>
-          </div>
 
-          <h3 className="text-lg font-semibold text-gray-800 mb-3">
-            Disclaimer
-          </h3>
+            <h3 className="text-lg font-semibold text-gray-800 mb-3">
+              Disclaimer
+            </h3>
 
-          <p className="text-gray-600 italic">
-            All visa approvals, testimonials, and success stories displayed on
-            this website are shared for informational and transparency purposes
-            only. Individual results may vary based on personal qualifications,
-            documentation, country requirements, and embassy or immigration
-            authority decisions.<br/> <strong>Relokate.ng</strong> does not influence
-            or guarantee the outcome of any visa or immigration application.
-          </p>
-        </motion.div>
+            <p className="text-gray-600 italic">
+              All visa approvals, testimonials, and success stories displayed on
+              this website are shared for informational and transparency
+              purposes only. Individual results may vary based on personal
+              qualifications, documentation, country requirements, and embassy
+              or immigration authority decisions.
+              <br /> <strong>Relokate.ng</strong> does not influence or
+              guarantee the outcome of any visa or immigration application.
+            </p>
+          </motion.div>
+        </div>
       </div>
-      </section>
 
       <Footer />
 
