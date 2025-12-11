@@ -1,5 +1,5 @@
-import { completeGallery, galleryImages } from "../data/tourData";
-import { ZoomIn, ZoomOut } from "lucide-react";
+import { completeGallery } from "../data/tourData";
+import { ZoomIn } from "lucide-react";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 
@@ -53,7 +53,7 @@ export default function FullGallery() {
                   whileHover={{ rotate: [0, -10, 10, -10, 0] }}
                 >
                   <button className="bg-white text-gray-900 p-3 rounded-full hover:bg-primary hover:text-white transition-colors duration-300">
-                    <ZoomOut className="h-5 w-5" />
+                    <ZoomIn className="h-5 w-5" />
                   </button>
                 </motion.div>
               </div>
