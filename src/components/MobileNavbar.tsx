@@ -26,7 +26,6 @@ const MobileNavbar: React.FC = () => {
             exit={{ x: "100%" }}
             transition={{ duration: 0.3 }}
             className="fixed inset-0 bg-white z-50 w-full h-full flex flex-col p-6"
-
           >
             {/* Close button */}
             <div className="flex justify-end">
@@ -40,37 +39,35 @@ const MobileNavbar: React.FC = () => {
 
             {/* Menu content */}
             <nav className="mt-10 space-y-6">
-              <a href="#home" className="text-gray-600 block border-b border-gray-300 py-3">
+              <a
+                href="#home"
+                className="text-gray-600 block border-b border-gray-300 py-3"
+              >
                 HOME
               </a>
-              <Link href="fullcategories"  className="text-gray-600 block border-b border-gray-300 py-3">
-              <a
-                onClick={toggleMenu}
-              >
-                CATEGORIES
-              </a>
-              </Link>
-              <Link href="aboutuspage" className="text-gray-600 block border-b border-gray-300 py-3">
-              <a
-                onClick={toggleMenu}
-              >
-                ABOUT US
-              </a>
-              </Link>
-              <Link href="fullpopulartours" className="text-gray-600 block border-b border-gray-300 py-3">
-              <a
-                onClick={toggleMenu}
-              >
-                TOURS
-              </a>
-              </Link>
-              <Link href="fullgallerypage">
-              <a
+              <Link
+                href="fullcategories"
                 className="text-gray-600 block border-b border-gray-300 py-3"
-                onClick={toggleMenu}
               >
-                TESTIMONIALS
-              </a>
+                <a onClick={toggleMenu}>CATEGORIES</a>
+              </Link>
+              <Link
+                href="aboutuspage"
+                className="text-gray-600 block border-b border-gray-300 py-3"
+              >
+                <a onClick={toggleMenu}>ABOUT US</a>
+              </Link>
+              <Link
+                href="fullpopulartours"
+                className="text-gray-600 block border-b border-gray-300 py-3"
+              >
+                <a onClick={toggleMenu}>TOURS</a>
+              </Link>
+              <Link
+                href="fullgallerypage"
+                className="text-gray-600 block border-b border-gray-300 py-3"
+              >
+                <a onClick={toggleMenu}>TESTIMONIALS</a>
               </Link>
               <a
                 href="#blog"
