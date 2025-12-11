@@ -197,48 +197,67 @@ export const articles = [
 export const galleryImages = [
   {
     id: 1,
-    url: "./gallery/gallery12.jpeg",
+    type: "image",
+    url: "/gallery/gallery12.jpeg",
     alt: "Oxford Brookes University"
   },
   {
     id: 2,
-    url: "./gallery/gallery10.jpeg",
+    type: "image",
+    url: "/gallery/gallery10.jpeg",
     alt: "Burgundy School of Business"
   },
   {
     id: 3,
-    url: "./gallery/gallery2.jpeg",
+    type: "image",
+    url: "/gallery/gallery2.jpeg",
     alt: "Serbia Belgrade Airport"
   },
   {
     id: 4,
-    url: "./gallery/gallery1.jpeg",
+    type: "image",
+    url: "/gallery/gallery1.jpeg",
     alt: "Staffordshire University"
   },
   {
     id: 5,
-    url: "./gallery/gallery4.jpeg",
+    type: "image",
+    url: "/gallery/gallery4.jpeg",
     alt: "Sand Sea Tanzania"
   },
   {
     id: 6,
-    url:"./gallery/gallery6.jpeg",
+    type: "image",
+    url:"/gallery/gallery6.jpeg",
     alt: "Tanzania Tour"
   },
   {
     id: 7,
-    url: "./gallery/gallery7.jpeg",
+    type: "image",
+    url: "/gallery/gallery7.jpeg",
     alt: "Tanzania Tour"
   },
   {
     id: 8,
-    url: "./gallery/gallery8.jpeg",
+    type: "image",
+    url: "/gallery/gallery8.jpeg",
     alt: "Hiking"
   },
   {
     id: 9,
-    url: "./gallery/gallery11.png",
+    type: "image",
+    url: "/gallery/gallery11.png",
     alt: "Burgundy School of Business"
+  },
+   {
+    id: 10,
+    type: "video",
+    url: "/gallery/uk-endorsement.mp4"
+  },
+  {
+    id: 11,
+    type: "video",
+    url: "/gallery/france-endorsement.mp4"
   },
 ];
 
@@ -247,97 +266,126 @@ export const galleryImages = [
 export const completeGallery = [
   {
     id: 1,
-    url: "./gallery/gallery12.jpeg",
+    type: "image",
+    url: "/gallery/gallery12.jpeg",
     alt: "Oxford Brookes University"
   },
   {
     id: 2,
-    url: "./gallery/gallery10.jpeg",
+    type: "image",
+    url: "/gallery/gallery10.jpeg",
     alt: "Burgundy School of Business"
   },
   {
     id: 3,
-    url: "./gallery/gallery2.jpeg",
+    type: "image",
+    url: "/gallery/gallery2.jpeg",
     alt: "Serbia Belgrade Airport"
   },
   {
     id: 5,
-    url: "./gallery/gallery4.jpeg",
+    type: "image",
+    url: "/gallery/gallery4.jpeg",
     alt: "Sand Sea Tanzania"
   },
   {
     id: 6,
-    url:"./gallery/gallery6.jpeg",
+    type: "image",
+    url:"/gallery/gallery6.jpeg",
     alt: "Tanzania Tour"
   },
   {
     id: 7,
-    url: "./gallery/gallery7.jpeg",
+    type: "image",
+    url: "/gallery/gallery7.jpeg",
     alt: "Tanzania Tour"
   },
   {
     id: 8,
-    url: "./gallery/gallery8.jpeg",
+    type: "image",
+    url: "/gallery/gallery8.jpeg",
     alt: "Hiking"
   },
   {
     id: 9,
-    url: "./gallery/gallery11.png",
+    type: "image",
+    url: "/gallery/gallery11.png",
     alt: "Burgundy School of Business"
   },
   {
     id: 10,
-    url: "./gallery/gallery13.png",
+    type: "image",
+    url: "/gallery/gallery13.png",
     alt: "Serbia Visa Approval"
   },
   {
     id: 11,
-    url: "./gallery/gallery14.png",
+    type: "image",
+    url: "/gallery/gallery14.png",
     alt: "Serbia Visa Approval"
   },
   {
     id: 12,
-    url: "./gallery/gallery15.png",
+    type: "image",
+    url: "/gallery/gallery15.png",
     alt: "Serbia Visa Approval"
   },
   {
     id: 13,
-    url: "./gallery/gallery16.png",
+    type: "image",
+    url: "/gallery/gallery16.png",
     alt: "Serbia Visa Approval"
   },
   {
     id: 14,
-    url: "./gallery/gallery23.png",
+    type: "image",
+    url: "/gallery/gallery23.png",
     alt: "Sweden Visa Approval"
   },
   {
     id: 15,
-    url: "./gallery/gallery17.png",
+    type: "image",
+    url: "/gallery/gallery17.png",
     alt: "Serbia Visa Approval"
   },
   {
     id: 16,
-    url: "./gallery/gallery18.png",
+    type: "image",
+    url: "/gallery/gallery18.png",
     alt: "Serbia Visa Approval"
   },
   {
     id: 17,
-    url: "./gallery/gallery19.png",
+    type: "image",
+    url: "/gallery/gallery19.png",
     alt: "UK Visa Approval"
   },
   {
     id: 18,
-    url: "./gallery/gallery20.png",
+    type: "image",
+    url: "/gallery/gallery20.png",
     alt: "UK Visa Approval"
   },
   {
     id: 19,
-    url: "./gallery/gallery21.png",
+    type: "image",
+    url: "/gallery/gallery21.png",
     alt: "Spain Admission Offer"
   },
   {
     id: 20,
-    url: "./gallery/gallery22.png",
+    type: "image",
+    url: "/gallery/gallery22.png",
     alt: "UK Admission Offer"
+  },
+  {
+    id: 21,
+    type: "video",
+    url: "/gallery/uk-endorsement.mp4"
+  },
+  {
+    id: 22,
+    type: "video",
+    url: "/gallery/france-endorsement.mp4"
   },
 ];

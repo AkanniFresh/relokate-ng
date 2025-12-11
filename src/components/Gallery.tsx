@@ -26,61 +26,57 @@ export default function Gallery() {
           initial="hidden"
           animate="show"
         >
-          {galleryImages.map((image) => (
-            <motion.div 
-              key={image.id}
-              className="relative group overflow-hidden rounded-lg cursor-pointer shadow-md"
-              variants={{
-                hidden: { opacity: 0, y: 20 },
-                show: { opacity: 1, y: 0 }
-              }}
-              whileHover={{ 
-                scale: 1.03,
-                transition: { duration: 0.3 }
-              }}
-            >
-              <img 
-                src={image.url} 
-                alt={image.alt} 
-                className="w-full h-64 object-cover transition duration-500 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
-              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <motion.div
-                  initial={{ scale: 0 }}
-                  whileInView={{ scale: 1 }}
-                  transition={{ type: "spring", stiffness: 300, damping: 15 }}
-                  whileHover={{ rotate: [0, -10, 10, -10, 0] }}
-                >
-                  <button className="bg-white text-gray-900 p-3 rounded-full hover:bg-primary hover:text-white transition-colors duration-300">
-                    <ZoomIn className="h-5 w-5" />
-                  </button>
-                </motion.div>
-              </div>
-              
-              {/* Image caption that slides up on hover */}
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                <p className="text-white font-medium">{image.alt}</p>
-                <p className="text-white/80 text-sm">Explore our beautiful destinations</p>
-              </div>
-            </motion.div>
-          ))}
-        </motion.div>
-
-        <div className="flex flex-row gap-4 flex-wrap">
-
-          <video className="mt-3.5 rounded-md" width="490" height="240" controls>
-              <source src="./gallery/france-endorsement.mp4" type="video/mp4">
-              </source>
-
-            </video>
-          <video className="mt-3.5 rounded-md" width="490" height="240" controls>
-              <source src="./gallery/uk-endorsement.mp4" type="video/mp4">
-              </source>
-
-            </video>
-
-            </div>
+          {galleryImages.map((item) =>
+                      item.type === "image" ? (
+                        <motion.div
+                          key={item.id}
+                          className="relative group overflow-hidden rounded-lg cursor-pointer shadow-md"
+                          variants={{
+                            hidden: { opacity: 0, y: 20 },
+                            show: { opacity: 1, y: 0 },
+                          }}
+                          whileHover={{
+                            scale: 1.03,
+                            transition: { duration: 0.3 },
+                          }}
+                        >
+                          <img
+                            src={item.url}
+                            alt={item.alt || "Gallery Item"}
+                            className="w-full h-96 object-cover transition duration-500 group-hover:scale-110"
+                          />
+                          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+                          <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <motion.div
+                              initial={{ scale: 0 }}
+                              whileInView={{ scale: 1 }}
+                              transition={{ type: "spring", stiffness: 300, damping: 15 }}
+                              whileHover={{ rotate: [0, -10, 10, -10, 0] }}
+                            >
+                              <button className="bg-white text-gray-900 p-3 rounded-full hover:bg-primary hover:text-white transition-colors duration-300">
+                                <ZoomIn className="h-5 w-5" />
+                              </button>
+                            </motion.div>
+                          </div>
+          
+                          {/* Image caption that slides up on hover */}
+                          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                            <p className="text-white font-medium">{item.alt}</p>
+                            <p className="text-white/80 text-sm">
+                              Explore our beautiful destinations
+                            </p>
+                          </div>
+                        </motion.div>
+                      ) : (
+                        <video
+                          key={item.id}
+                          src={item.url}
+                          controls
+                          className="w-full h-96 object-cover rounded-lg"
+                        />
+                      )
+                    )}
+                  </motion.div>
         
         {/* View all button */}
         <motion.div 
