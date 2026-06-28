@@ -62,7 +62,7 @@ export default function Navbar() {
               className="max-w-[150px]"
               src="/logos/logo-new-header.png"
               // alt="w-20 md:w-20 lg:w-28"
-            />''
+            />
             </a>
             </Link>
           </motion.div>
