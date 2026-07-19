@@ -97,7 +97,7 @@ const FullGalleryPage = () => {
               purposes only. Individual results may vary based on personal
               qualifications, documentation, country requirements, and embassy
               or immigration authority decisions.
-              <br /> <strong>Relokate.ng</strong> does not influence or
+              <br /> <strong>Relokate</strong> does not influence or
               guarantee the outcome of any visa or immigration application.
             </p>
           </motion.div>
