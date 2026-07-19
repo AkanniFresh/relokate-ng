@@ -137,7 +137,7 @@ export const articles = [
     excerpt: "Unlock your future with German Scholarship empowering global talents through quality education in Germany.",
     image: "./logos/canada-scholarship.jpg",
     category: "Scholarship",
-    date: "June 28, 2026",
+    date: "July 16, 2026",
     readTime: "7 min read",
     href: "https://www.scholarshipregion.com/german-government-daad-scholarships-epos/"
   },
@@ -147,7 +147,7 @@ export const articles = [
     excerpt: "Pursue advanced studies with the 2026 Oxford Clarendon Scholarship supporting high-achieving international postgraduates in the UK.",
     image: "./logos/uk-scholarship.jpg",
     category: "Scholarship",
-    date: "June 28, 2026",
+    date: "July 16, 2026",
     readTime: "7 min read",
     href: "https://www.scholarshipregion.com/oxford-clarendon-fund-scholarship/"
   },
@@ -157,7 +157,7 @@ export const articles = [
     excerpt: "Apply for the 2026 Australia Award Scholarship supporting outstanding international students with academic excellence.",
     image: "./logos/graduate-scholarship.jpg",
     category: "Scholarship",
-    date: "June 28, 2026",
+    date: "July 16, 2026",
     readTime: "7 min read",
     href: "https://www.scholarshipregion.com/australia-awards-scholarships/"
   },
@@ -167,7 +167,7 @@ export const articles = [
     excerpt: "Learn how to pack efficiently for extended trips without overpacking or missing essentials.",
     image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
     category: "Travel Tips",
-    date: "June 28, 2026",
+    date: "July 16, 2026",
     readTime: "5 min read",
     href: "https://www.cntraveler.com/story/how-to-pack-for-long-term-travel"
   },
@@ -177,7 +177,7 @@ export const articles = [
     excerpt: "Discover the secret spots that even locals cherish in Tokyo's vibrant and exciting nightlife scene.",
     image: "https://images.unsplash.com/photo-1534430480872-3498386e7856?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
     category: "Destinations",
-    date: "June 28, 2026",
+    date: "July 16, 2026",
     readTime: "8 min read",
     href: "https://www.agoda.com/travel-guides/japan/tokyo/discover-tokyo-nightlife-for-foreigners-hidden-gems-await/"
   },
@@ -187,7 +187,7 @@ export const articles = [
     excerpt: "Everything you need to know about preparing for and enjoying the majestic trails of Switzerland.",
     image: "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
     category: "Adventures",
-    date: "June 28, 2026",
+    date: "July 16, 2026",
     readTime: "7 min read",
     href: "https://www.thehiking.club/blog/complete-guide-to-hiking-alps?srsltid=AfmBOooN02IBKk_-N8HweUe36alriStiEXrwZu2TmnmPVeRLOfDM5-Hm"
   }
