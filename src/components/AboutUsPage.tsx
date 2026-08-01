@@ -87,10 +87,10 @@ const AboutUsPage = () => {
           <AboutUsText />
 
           <div className="flex justify-center flex-row items-center">
-            <img className="w-[20px]" src="./logos/whatsapp.svg" alt="Whatsapp" />
-            <img className="w-[20px]" src="./logos/instagram.svg" alt="Instagram" />
-            <img className="w-[20px]" src="./logos/tiktok.svg" alt="Tiktok" />
-            <img className="w-[20px]" src="./logos/facebook.svg" alt="facebook" />
+            <img className="w-[20px]" src="./logos/whatsappp.png" alt="Whatsapp" />
+            <img className="w-[20px]" src="./logos/instagram.png" alt="Instagram" />
+            <img className="w-[20px]" src="./logos/tiktok.png" alt="Tiktok" />
+            <img className="w-[20px]" src="./logos/facebook.png" alt="facebook" />
           </div>
         </motion.div>
       </div>
