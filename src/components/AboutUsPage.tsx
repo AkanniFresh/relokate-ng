@@ -86,11 +86,14 @@ const AboutUsPage = () => {
         <motion.div>
           <AboutUsText />
 
+          <div className="hidden">
+
           <div className="flex justify-center flex-row items-center">
             <img className="w-[20px]" src="./logos/whatsappp.png" alt="Whatsapp" />
             <img className="w-[20px]" src="./logos/instagram.png" alt="Instagram" />
             <img className="w-[20px]" src="./logos/tiktok.png" alt="Tiktok" />
             <img className="w-[20px]" src="./logos/facebook.png" alt="facebook" />
+          </div>
           </div>
         </motion.div>
       </div>
