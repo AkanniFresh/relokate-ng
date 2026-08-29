@@ -85,8 +85,8 @@ export default function Footer() {
             </p>
             
             <div className="flex flex-col space-y-2 mb-6">
-              <div className="flex items-center">
-                <MapPin className="h-5 w-5 text-primary mr-3" />
+              <div className="flex items-start">
+                <MapPin className="h-5 w-5 text-primary mr-3 mt-1.5" />
                 <span className="text-gray-300">Suite 1, Ridwan House, <br/> Asa-Dam, Ilorin Nigeria</span>
               </div>
               <div className="flex items-center">
