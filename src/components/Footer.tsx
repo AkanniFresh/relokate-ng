@@ -66,8 +66,8 @@ export default function Footer() {
                 transition={{ duration: 0.5 }}
               >
                <img
-              className="max-w-[150px]"
-              src="/logos/logo-new-footer.png"
+              className="max-w-[100px]"
+              src="/logos/logo-white.png"
               alt=""
             />
               </motion.div>

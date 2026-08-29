@@ -60,7 +60,7 @@ export default function Navbar() {
             <a>
             <img
               className="max-w-[150px]"
-              src="/logos/logo-new-header.png"
+              src="/logos/relokate-straight.png"
               // alt="w-20 md:w-20 lg:w-28"
             />
             </a>

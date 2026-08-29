@@ -60,7 +60,7 @@ export default function SubpageNavbar() {
             <a>
             <img
               className="max-w-[150px]"
-              src="/logos/logo-new-header.png"
+              src="/logos/relokate-straight.png"
               alt=""
             />
             </a>
