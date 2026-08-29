@@ -114,7 +114,7 @@ export default function Navbar() {
                 // onClick={handleToggle}
                 className="relative overflow-hidden px-4 py-2 rounded-sm bg-[#203864] text-white font-semibold transition-all duration-300 group hidden lg:block"
               >
-                <span className="absolute inset-0 bg-gray-800 transform scale-x-0 origin-left transition-transform duration-300 ease-out group-hover:scale-x-100 z-0"></span>
+                <span className="absolute inset-0 bg-amber-500 transform scale-x-0 origin-left transition-transform duration-300 ease-out group-hover:scale-x-100 z-0"></span>
                 <span className="relative z-10 group-hover:text-white transition-colors duration-300">
                   BOOK A CONSULTATION
                 </span>
