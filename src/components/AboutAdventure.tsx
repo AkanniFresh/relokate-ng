@@ -8,7 +8,7 @@ export default function AboutAdventure() {
     { value: "250+", label: "Successful Application" },
     { value: "350+", label: "Happy Clients" },
     { value: "150+", label: "Destinations" },
-    { value: "08+", label: "Years Experience" }
+    { value: "04+", label: "Years Experience" }
   ];
   
   return (
